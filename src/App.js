@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Plotter } from "./pages/plotter.page";
+// import { PointTable } from "./pages/table.page";
+import UserInput from "./components/userInput/userInput.component";
+import "./app.scss";
+import { Block } from "baseui/block";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="flex">
+        <div className="flex_item user-input">
+          <UserInput />
+        </div>
+        <div className="flex_item">
+          <Plotter />
+        </div>
+      </div>
+      <Block margin="1rem 0">
+        <div className="flex"></div>
+      </Block>
     </div>
   );
 }

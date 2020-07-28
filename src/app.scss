@@ -1,0 +1,38 @@
+.App {
+  & > * {
+    pointer-events: all;
+  }
+}
+
+.flex {
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  pointer-events: none;
+  & > * {
+    pointer-events: all;
+  }
+}
+.flex_item {
+  width: 512px;
+  height: 100%;
+}
+.coOrd {
+  width: 400px !important;
+  display: flex;
+
+  // align-items: center;
+  margin: 2rem;
+  margin-left: 0;
+  label {
+    margin-left: 1rem;
+    margin-right: 2rem;
+  }
+}
+.guideline {
+  pointer-events: none;
+  svg {
+    pointer-events: none;
+  }
+}
