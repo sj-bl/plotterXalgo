@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/plotterXalgo/static/css/main.3a3623b8.chunk.css",
+    "main.js": "/plotterXalgo/static/js/main.be12586c.chunk.js",
+    "main.js.map": "/plotterXalgo/static/js/main.be12586c.chunk.js.map",
+    "runtime-main.js": "/plotterXalgo/static/js/runtime-main.d2921498.js",
+    "runtime-main.js.map": "/plotterXalgo/static/js/runtime-main.d2921498.js.map",
+    "static/js/2.ba82914d.chunk.js": "/plotterXalgo/static/js/2.ba82914d.chunk.js",
+    "static/js/2.ba82914d.chunk.js.map": "/plotterXalgo/static/js/2.ba82914d.chunk.js.map",
+    "index.html": "/plotterXalgo/index.html",
+    "precache-manifest.dca8c7b2ccc1dc2b4fc6466d03531ed3.js": "/plotterXalgo/precache-manifest.dca8c7b2ccc1dc2b4fc6466d03531ed3.js",
+    "service-worker.js": "/plotterXalgo/service-worker.js",
+    "static/css/main.3a3623b8.chunk.css.map": "/plotterXalgo/static/css/main.3a3623b8.chunk.css.map",
+    "static/js/2.ba82914d.chunk.js.LICENSE.txt": "/plotterXalgo/static/js/2.ba82914d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2921498.js",
+    "static/js/2.ba82914d.chunk.js",
+    "static/css/main.3a3623b8.chunk.css",
+    "static/js/main.be12586c.chunk.js"
+  ]
+}
